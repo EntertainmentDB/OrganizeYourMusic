@@ -10,9 +10,14 @@ Online at http://static.echonest.com/OrganizeYourMusic
 
 Run the site locally e.g. using a python server:
 
-    cd web
-    python -m SimpleHTTPServer 8000
+```
+# npm i -g serve
+serve -s web
+# or
+cd web
+python -m SimpleHTTPServer 5000
+```
 
 Then visit the site at:
 
-    http://localhost:8000/
+http://localhost:8000/
